@@ -41,8 +41,9 @@ The main wrappers used are:
 - PassReward:  to pass the previous reward as an input (this wrapper is already present in the original NeuroGym toolbox)
 
 ### Examples
+The following example will train and test an RNN on the 2AFC task. Note that the file [params.py](https://github.com/manuelmolano/structural_priors_paper/blob/master/priors/params.py) is expected to be in the folder where you will save the behavioral data.
 ```
-python bsc_run.py --folder /home/you_folder --seed 0 --alg ACER --n_ch 2 --rollout 15 --alpha_net 0.1
+python bsc_run.py --folder /home/folder_where_you_want_to_save_the_behavioral_data --seed 0 --alg ACER --n_ch 2
 
 
 ```
