@@ -1,8 +1,9 @@
 
 <p align="center">
-<img src="docs/schematic.png"  width="70%">
+    <img src="docs/schematic.png"  width="70%">
 <p>
-# Recurrent networks endowed with structural priors explain suboptimal animal behavior
+
+### Recurrent networks endowed with structural priors explain suboptimal animal behavior
 
 This repository contains the code necessary to train RNNs as we do in [Molano-Mazon et al. 2023 Current Biology](https://www.sciencedirect.com/science/article/abs/pii/S0960982222019819). 
 
@@ -48,8 +49,6 @@ The main wrappers used are:
 The following example will train and test an RNN on the 2AFC task. Note that the file [params.py](https://github.com/manuelmolano/structural_priors_paper/blob/master/priors/params.py) is expected to be in the folder where you will save the behavioral data.
 ```
 python bsc_run.py --folder /home/folder_where_you_want_to_save_the_behavioral_data --seed 0 --alg ACER --n_ch 2
-
-
 ```
 
 
