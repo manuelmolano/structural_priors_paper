@@ -1,0 +1,17 @@
+setup.py
+ngym_priors/__init__.py
+ngym_priors/get_tasks_and_wrappers.py
+ngym_priors/nalt_perceptualdecisionmaking.py
+ngym_priors/noise.py
+ngym_priors/reaction_time.py
+ngym_priors/test_wrappers.py
+ngym_priors/time_out.py
+ngym_priors/trial_hist_ev.py
+ngym_priors/variable_mapping.py
+ngym_priors/variable_nch.py
+ngym_priors/version.py
+ngym_priors.egg-info/PKG-INFO
+ngym_priors.egg-info/SOURCES.txt
+ngym_priors.egg-info/dependency_links.txt
+ngym_priors.egg-info/requires.txt
+ngym_priors.egg-info/top_level.txt
