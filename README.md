@@ -1,6 +1,6 @@
 # Recurrent networks endowed with structural priors explain suboptimal animal behavior
 
-This is the repository where I plan to put all the code necessary to replicate the results of [Molano-Mazon et al. 2023 Current Biology](https://www.sciencedirect.com/science/article/abs/pii/S0960982222019819). 
+This repository contains the code necessary to train RNNs as we do in [Molano-Mazon et al. 2023 Current Biology](https://www.sciencedirect.com/science/article/abs/pii/S0960982222019819). 
 
 
 Documentation: 
@@ -16,10 +16,10 @@ The tasks inherit all functionalities from the original [NeuroGym](https://githu
 ### Installation
 
 The main dependencies are: 
-Python version 3.7	https://www.python.org
-Tensorflow version 1.13.1	T	https://www.tensorflow.org/
-Stable baselines	https://github.com/hill-a/stable-baselines
-Neurogym	https://neurogym.github.io/
+[Python](https://www.python.org) version 3.7	
+[Tensorflow](https://www.tensorflow.org/) version 1.13.1
+[Stable baselines] version 2.0 (https://github.com/hill-a/stable-baselines)
+[Neurogym](https://neurogym.github.io/)
 
 You can install the tasks as follows (see also ):
 
