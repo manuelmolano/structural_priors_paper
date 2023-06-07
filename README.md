@@ -1,5 +1,8 @@
 # Recurrent networks endowed with structural priors explain suboptimal animal behavior
 
+![alt tag](docs/pipeline.png)
+
+
 This repository contains the code necessary to train RNNs as we do in [Molano-Mazon et al. 2023 Current Biology](https://www.sciencedirect.com/science/article/abs/pii/S0960982222019819). 
 
 
