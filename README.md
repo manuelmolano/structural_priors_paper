@@ -16,12 +16,12 @@ The tasks inherit all functionalities from the original [NeuroGym](https://githu
 ### Installation
 
 The main dependencies are: 
-[Python](https://www.python.org) version 3.7	
-[Tensorflow](https://www.tensorflow.org/) version 1.13.1
-[Stable baselines] version 2.0 (https://github.com/hill-a/stable-baselines)
-[Neurogym](https://neurogym.github.io/)
+- [Python](https://www.python.org) version 3.7	
+- [Tensorflow](https://www.tensorflow.org/) version 1.13.1
+- [Stable baselines] version 2.0 (https://github.com/hill-a/stable-baselines)
+- [Neurogym](https://neurogym.github.io/)
 
-You can install the tasks as follows (see also ):
+You can install the tasks as follows (see also [NeuroGym](https://github.com/neurogym/neurogym)):
 
     git clone https://github.com/manuelmolano/structural_priors_paper.git
     cd structural_priors_paper/ngym_priors
