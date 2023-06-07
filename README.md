@@ -34,16 +34,18 @@ The environment used for the paper is: [nalt_perceptualdecisionmaking](https://g
 ### Wrappers
 [Wrappers](https://github.com/manuelmolano/structural_priors_paper/tree/master/ngym_priors/ngym_priors/wrappers) are short scripts that allow introducing modifications the original tasks. 
 The main wrappers used are:
-TrialHistoryEv: to define the contexts.
-Variable_nch: to specify the number of choices.
-MonitorExtended: to save the behavioral data
-PassAction: to pass the previous action as an input (this wrapper is already present in the original NeuroGym toolbox)
-PassReward:  to pass the previous reward as an input (this wrapper is already present in the original NeuroGym toolbox)
+- TrialHistoryEv: to define the contexts.
+- Variable_nch: to specify the number of choices.
+- MonitorExtended: to save the behavioral data.
+- PassAction: to pass the previous action as an input (this wrapper is already present in the original NeuroGym toolbox)
+- PassReward:  to pass the previous reward as an input (this wrapper is already present in the original NeuroGym toolbox)
 
 ### Examples
+```
+python bsc_run.py --folder /home/you_folder --seed 0 --alg ACER --n_ch 2 --rollout 15 --alpha_net 0.1
 
 
-
+```
 
 
 ### Authors
