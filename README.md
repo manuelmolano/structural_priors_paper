@@ -20,7 +20,7 @@ The tasks inherit all functionalities from the original [NeuroGym](https://githu
 
 ### Installation
 
-The main dependencies are: 
+The training of the RNNs was developed using TensorFlow 1.13, which means you may need to install older versions of certain libraries for it to function properly (I apologize for this). The main dependencies are: 
 - [Python](https://www.python.org) version 3.7	
 - [Tensorflow](https://www.tensorflow.org/) version 1.13.1
 - [Stable baselines,  version 2.0](https://github.com/hill-a/stable-baselines), Do this: ```pip install tensorflow==1.13.1 stable-baselines==2.10.2```
