@@ -23,8 +23,13 @@ The tasks inherit all functionalities from the original [NeuroGym](https://githu
 The main dependencies are: 
 - [Python](https://www.python.org) version 3.7	
 - [Tensorflow](https://www.tensorflow.org/) version 1.13.1
-- [Stable baselines] version 2.0 (https://github.com/hill-a/stable-baselines)
+- [Stable baselines,  version 2.0](https://github.com/hill-a/stable-baselines), Do this: ```pip install tensorflow==1.13.1 stable-baselines==2.10.2```
 - [Neurogym](https://neurogym.github.io/)
+
+You might also have to modify the protobuf version:
+```
+pip install protobuf==3.20.0 opencv-python-headless
+```
 
 You can install the tasks as follows (see also [NeuroGym](https://github.com/neurogym/neurogym)):
 
